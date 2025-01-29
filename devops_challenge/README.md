@@ -32,9 +32,11 @@ Prometheus: http://localhost:9090
 
 Grafana: http://localhost:3000
 
-There are 4 different dashboards in Grafana. You can see different and basic metrics on each dashboard. 
+There are 3 different dashboards in Grafana. You can see different and basic metrics on each dashboard. 
 
 For "Docker and system monitoring with cAdvisor" dashboard you need to change time range to at least 6 hour, or 15 minutes for better results.
+
+If you go to "Explore > Metrics" in Grafana panel, you can see a lot more metrics.
 
 ## File Structure
 ```bash
